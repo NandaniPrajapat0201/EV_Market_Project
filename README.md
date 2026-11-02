@@ -37,5 +37,5 @@ This project visualizes EV market data across **7 regions** and **7 vehicle cate
 
 ## Live dashboard
 
-https://public.tableau.com/app/profile/nandini.prajapat/viz/EV_Market_17936073090410/Dashboard1?publish=yes
+https://public.tableau.com/app/profile/nandini.prajapat/viz/EV_Market_17936073090410/Dashboard1
 
