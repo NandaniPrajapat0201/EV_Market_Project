@@ -5,7 +5,10 @@ app = Flask(__name__)
 # After you publish the dashboard on Tableau Public, paste its embed link here.
 # Example format:
 # "https://public.tableau.com/views/YourDashboardName/YourViewName?:language=en-US&:display_count=n&:origin=viz_share_link"
-TABLEAU_URL = "https://public.tableau.com/views/Book1_17934708282000/Story1?:showVizHome=no&:embed=true"
+# TABLEAU_URL = "https://public.tableau.com/app/profile/nandini.prajapat/viz/EV_Market_17936073090410/Dashboard1??:showVizHome=no&:embed=true"
+
+# ✅ Correct — /views/ path
+TABLEAU_URL = "https://public.tableau.com/views/EV_Market_17936073090410/Dashboard1?:showVizHome=no&:embed=true"   
 KPIS = [
     {"label": "Total Annual Sales", "value": "1.55B units"},
     {"label": "Average Range", "value": "324.5 km"},
